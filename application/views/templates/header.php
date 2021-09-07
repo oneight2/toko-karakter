@@ -50,8 +50,8 @@
                                 <div class="contact_logo column-1_4">
                                     <div class="logo">
                                         <a href="index.html">
-                                            <img alt="" class="logo_main" height="74" src="images/logo/logo.png" width="121" />
-                                            <img alt="" class="logo_fixed" height="74" src="images/logo/logo.png" width="121" />
+                                            <img alt="" class="logo_main" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
+                                            <img alt="" class="logo_fixed" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                                         </a>
                                     </div>
                                 </div>
@@ -70,18 +70,23 @@
                                     </div>
                                     <nav class="menu_main_nav_area menu_hover_fade">
                                         <ul id="menu_main" class="menu_main_nav">
-                                            <li class="
-                            menu-item
-                            current-menu-ancestor current-menu-parent
-                            menu-item-has-children
-                          ">
-                                                <a href="#"><span>Home</span></a>
+                                            <li class="menu-item <?php if ($this->uri->segment(1) == "") {
+                                                                        echo 'current-menu-ancestor';
+                                                                    } ?> ">
+                                                <a href="<?= base_url() ?>"><span>Home</span></a>
                                             </li>
-                                            <li class="menu-item">
-                                                <a href="about.html"><span>About Us</span></a>
+                                            <li class="menu-item  <?php if ($this->uri->segment(1) == "about") {
+                                                                        echo 'current-menu-ancestor';
+                                                                    } ?>">
+                                                <a href="<?= base_url() ?>about"><span>About Us</span></a>
+                                            </li>
+                                            <li class="menu-item <?php if ($this->uri->segment(1) == "product") {
+                                                                        echo 'current-menu-ancestor';
+                                                                    } ?>">
+                                                <a href="#"><span>Our Product</span></a>
                                             </li>
                                             <li class="menu-item menu-item-has-children">
-                                                <a href="#"><span>Our Product</span></a>
+                                                <a><span>MARKET PLACE</span></a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
                                                         <a href="services.html"><span>Our Services</span></a>
@@ -103,9 +108,6 @@
                                                     </li>
                                                 </ul>
                                             </li>
-                                            <li class="menu-item menu-item-has-children">
-                                                <a><span>MARKET PLACE</span></a>
-                                            </li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -119,31 +121,8 @@
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
                         <a href="index.html">
-                            <img alt="" class="logo_main" height="74" src="images/logo.png" width="121" />
+                            <img alt="" class="logo_main" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                         </a>
-                    </div>
-                    <div class="menu_main_cart top_panel_icon">
-                        <a href="#" class="top_panel_cart_button" data-items="0" data-summa="&#036;0.00">
-                            <span class="contact_icon icon-basket"></span>
-                            <span class="contact_label contact_cart_label">Your cart:</span>
-                            <span class="contact_cart_totals">
-                                <span class="cart_items">0 Items</span> -
-                                <span class="cart_summa">&#36;0.00</span>
-                            </span>
-                        </a>
-                        <ul class="widget_area sidebar_cart sidebar">
-                            <li>
-                                <div class="widget woocommerce widget_shopping_cart">
-                                    <div class="hide_cart_widget_if_empty">
-                                        <div class="widget_shopping_cart_content">
-                                            <ul class="cart_list product_list_widget">
-                                                <li class="empty">No products in the cart.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
                     </div>
                 </div>
                 <div class="side_wrap">
@@ -151,98 +130,14 @@
                     <div class="panel_top">
                         <nav class="menu_main_nav_area">
                             <ul id="menu_mobile" class="menu_main_nav">
-                                <li class="
-                      menu-item
-                      current-menu-ancestor current-menu-parent
-                      menu-item-has-children
-                    ">
-                                    <a href="#"><span>Home</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item current-menu-item current_page_item">
-                                            <a href="index.html"><span>Home 1</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-2.html"><span>Home 2</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="home-3.html"><span>Home 3</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
                                 <li class="menu-item">
                                     <a href="about.html"><span>About Us</span></a>
-                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a href="#"><span>Pages</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="services.html"><span>Our Services</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="team.html"><span>Our Team</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="single-team.html"><span>Expert&#8217;s Profile</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="contacts.html"><span>Contact Us</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="faq.html"><span>FAQ’s</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="404.html"><span>Page 404</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a><span>Blog</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="blog-sidebar.html"><span>Classic With Sidebar</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="blog.html"><span>Classic Without Sidebar</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="blog-masonry.html"><span>Masonry</span></a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="menu-item menu-item-has-children">
-                                    <a><span>Elements</span></a>
-                                    <ul class="sub-menu">
-                                        <li class="menu-item">
-                                            <a href="typography.html"><span>Typography</span></a>
-                                        </li>
-                                        <li class="menu-item">
-                                            <a href="shortcodes.html"><span>Shortcodes</span></a>
-                                        </li>
-                                    </ul>
                                 </li>
                                 <li class="menu-item">
                                     <a href="shop.html"><span>Shop</span></a>
                                 </li>
                             </ul>
                         </nav>
-                        <div class="search_wrap search_style_ search_state_fixed search_ajax">
-                            <div class="search_form_wrap">
-                                <form action="index.html" class="search_form" method="get" role="search">
-                                    <button class="search_submit icon-search" title="Start search" type="submit"></button>
-                                    <input class="search_field" name="s" placeholder="Search" type="text" value="" />
-                                </form>
-                            </div>
-                            <div class="search_results widget_area scheme_original">
-                                <a class="search_results_close icon-cancel"></a>
-                                <div class="search_results_content"></div>
-                            </div>
-                        </div>
-                        <div class="login">
-                            <a href="#popup_login" class="popup_link popup_login_link icon-user">Login</a>
-                        </div>
-                        <div class="login">
-                            <a href="#popup_registration" class="popup_link popup_register_link icon-pencil">Register</a>
-                        </div>
                     </div>
                     <div class="panel_bottom"></div>
                 </div>

@@ -3,7 +3,7 @@
         <div class="content_wrap">
             <div class="logo">
                 <a href="index.html">
-                    <img alt="" class="logo_footer" height="60" src="images/logo/logo2.png" width="121" />
+                    <img alt="" class="logo_footer" height="60" src="<?= base_url() ?>assets/images/logo/logo2.png" width="121" />
                 </a>
             </div>
             <div class="contact_info">
@@ -191,6 +191,17 @@
         spaceBetween: 30,
         centeredSlides: true,
         effect: "fade",
+    });
+
+    $(document).ready(function() {
+        $('.menu-item a').click(function(e) {
+
+            $('.menu-item a .current-menu-ancestor').removeClass('current-menu-ancestor');
+
+            var $parent = $(this).parent();
+            $parent.addClass('current-menu-ancestor');
+            e.preventDefault();
+        });
     });
 </script>
 </body>

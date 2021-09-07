@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Home extends CI_Controller
+class About extends CI_Controller
 {
     public function __construct()
     {
@@ -21,30 +21,11 @@ class Home extends CI_Controller
             'products' => $this->Home_model->products(),
             'imageProducts' => $this->Home_model->imageProducts(),
             'reviews' => $this->Home_model->reviews(),
-        );
-
-        $this->load->view('templates/header', $data);
-        $this->load->view('home', $data);
-        $this->load->view('templates/footer', $data);
-    }
-
-    function about()
-    {
-        $data = array(
-            'title' => "Toko Karakter",
-            'imageAdress' => "http://localhost/e-catalog/assets/",
             'about' => $this->Home_model->about(),
         );
 
         $this->load->view('templates/header', $data);
         $this->load->view('about', $data);
         $this->load->view('templates/footer', $data);
-    }
-
-
-    function update()
-    {
-        $data = $this->About_model->update_product();
-        echo json_encode($data);
     }
 }
