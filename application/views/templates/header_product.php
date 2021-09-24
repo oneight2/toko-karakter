@@ -1,40 +1,36 @@
 <!DOCTYPE html>
-<html class="scheme_original" lang="en-US">
+<html lang="en-US" class="scheme_original">
 
 <head>
-    <title>Juno Toys and Games</title>
+    <title>Products &#8211; Juno Toys and Games</title>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/essgrid/settings.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Fredoka+One|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Ubuntu:300,300i,400,400i,500,500i,700,700i&#038;ver=4.6.3" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/revslider/settings.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/woo/woocommerce-layout.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/woo/woocommerce-smallscreen.css" type="text/css" media="only screen and (max-width: 768px)" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/woo/woocommerce.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/socials.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/fontello/css/fontello.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/style.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/core.animation.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/theme.shortcodes.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/theme.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/woo/plugin.woocommerce.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/responsive.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/mediaelement/mediaelementplayer.min.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/grid.layout/grid.layout.min.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/custom/custom.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/custom/plugins.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/css/core.messages.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/magnific/magnific-popup.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/essgrid/lightbox.css" type="text/css" media="all" />
-    <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/swiper/swiper.min.css" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link property="stylesheet" rel='stylesheet' href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Fredoka+One|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Ubuntu:300,300i,400,400i,500,500i,700,700i&#038;ver=4.6.3' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/js/vendor/woo/woocommerce-layout.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/js/vendor/woo/woocommerce-smallscreen.css' type='text/css' media='only screen and (max-width: 768px)' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/js/vendor/woo/woocommerce.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/socials.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/fontello/css/fontello.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/style.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/core.animation.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/theme.shortcodes.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/theme.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/js/vendor/woo/plugin.woocommerce.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/js/vendor/swiper/swiper.min.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/responsive.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/core.messages.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/custom/custom.css' type='text/css' media='all' />
+    <link property="stylesheet" rel='stylesheet' href='<?= base_url() ?>assets/css/custom/plugins.css' type='text/css' media='all' />
 
-    <link rel="icon" href="images/cropped-big_favicon-32x32.png" />
-    <link rel="icon" href="images/cropped-big_favicon-192x192.png" />
+    <link rel="icon" href="images/cropped-big_favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" href="images/cropped-big_favicon-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon-precomposed" href="images/cropped-big_favicon-180x180.png" />
     <meta name="msapplication-TileImage" content="images/cropped-big_favicon-270x270.png" />
 </head>
 
-<body class="home page body_filled scheme_original top_panel_above sidebar_hide">
+<body class="archive shopp woocommerce woocommerce-page body_filled article_style_stretch layout_excerpt scheme_original top_panel_above sidebar_show sidebar_left wpb-js-composer vc_responsive">
+    <a id="toc_home" class="sc_anchor" title="Home" data-description="&lt;i&gt;Return to Home&lt;/i&gt; - &lt;br&gt;navigate to home page of the site" data-icon="icon-home" data-url="index.html" data-separator="yes"></a>
+    <a id="toc_top" class="sc_anchor" title="To Top" data-description="&lt;i&gt;Back to top&lt;/i&gt; - &lt;br&gt;scroll to top of the page" data-icon="icon-double-up" data-url="" data-separator="yes"></a>
     <div class="body_wrap">
         <div class="page_wrap">
             <div class="top_panel_fixed_wrap"></div>
@@ -80,10 +76,10 @@
                                                                     } ?>">
                                                 <a href="<?= base_url() ?>about"><span>About Us</span></a>
                                             </li>
-                                            <li class="menu-item <?php if ($this->uri->segment(1) == "products") {
+                                            <li class="menu-item <?php if ($this->uri->segment(1) == "Products") {
                                                                         echo 'current-menu-ancestor';
                                                                     } ?>">
-                                                <a href="<?= base_url() ?>products"><span>Our Product</span></a>
+                                                <a href="<?= base_url() ?>Products"><span>Our Product</span></a>
                                             </li>
                                             <li class="menu-item menu-item-has-children">
                                                 <a><span>MARKET PLACE</span></a>

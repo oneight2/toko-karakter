@@ -150,39 +150,39 @@
 <a href="#" class="scroll_to_top" title="Scroll to top"></a>
 <div class="custom_html_section"></div>
 
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/jquery/jquery.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/jquery/jquery-migrate.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/custom.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/essgrid/lightbox.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/essgrid/jquery.themepunch.tools.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/essgrid/jquery.themepunch.essential.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/revslider/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.actions.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/add-to-cart.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/woocommerce-add-to-cart.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/photostack/modernizr.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/jquery.blockUI.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/woocommerce.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/jquery.cookie.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/woo/cart-fragments.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/superfish.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/jquery/core.utils.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/jquery/core.init.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/jquery/theme.init.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/mediaelement/mediaelement-and-player.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/jquery/theme.shortcodes.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/custom/jquery/core.messages.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/magnific/jquery.magnific-popup.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/grid.layout/grid.layout.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/swiper/swiper.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/ui/core.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/ui/widget.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/ui/tabs.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/ui/effect.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/ui/effect-fade.min.js"></script>
-<script type="text/javascript" src="<?php base_url() ?>assets/js/vendor/isotope/isotope.pkgd.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/jquery/jquery.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/jquery/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/custom.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/essgrid/lightbox.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/essgrid/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/essgrid/jquery.themepunch.essential.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/revslider/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.actions.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/revslider/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/add-to-cart.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/woocommerce-add-to-cart.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/photostack/modernizr.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/jquery.blockUI.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/woocommerce.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/jquery.cookie.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/woo/cart-fragments.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/superfish.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/jquery/core.utils.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/jquery/core.init.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/jquery/theme.init.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/jquery/theme.shortcodes.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/custom/jquery/core.messages.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/magnific/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/grid.layout/grid.layout.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/swiper/swiper.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/ui/core.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/ui/widget.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/ui/tabs.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/ui/effect.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/ui/effect-fade.min.js"></script>
+<script type="text/javascript" src="<?= base_url() ?>assets/js/vendor/isotope/isotope.pkgd.min.js"></script>
 <!-- Initialize Swiper -->
 <script>
     var swiper = new Swiper(".mySwiper", {
