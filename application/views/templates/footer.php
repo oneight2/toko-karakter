@@ -9,7 +9,7 @@
             <div class="contact_info">
                 Make play time a blast with our finest toys and games!
             </div>
-            <div class="
+            <!-- <div class="
                   sc_socials
                   sc_socials_type_images
                   sc_socials_shape_square
@@ -40,7 +40,7 @@
                         <span class="sc_socials_hover"></span>
                     </a>
                 </div>
-            </div>
+            </div> -->
         </div>
     </div>
 </footer>

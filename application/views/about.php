@@ -40,7 +40,7 @@
                                                                 <div class="sc_section_content_wrap">
                                                                     <figure class="sc_image sc_image_shape_square">
                                                                         <a href="<?= $about[0]['instagram'] ?>">
-                                                                            <img src="<?php base_url() ?>assets/images/1-1.png" alt="" />
+                                                                            <img src="<?php base_url() ?>assets/images/ig.png" alt="" width="70%" />
                                                                         </a>
                                                                     </figure>
                                                                     <div class="wpb_text_column wpb_content_element ">
@@ -57,8 +57,8 @@
                                                             <div class="sc_section_inner">
                                                                 <div class="sc_section_content_wrap">
                                                                     <figure class="sc_image sc_image_shape_square">
-                                                                        <a href="<?= $about[0]['whatsapp'] ?>">
-                                                                            <img src="<?php base_url() ?>assets/images/2-1.png" alt="" />
+                                                                        <a href="https://api.whatsapp.com/send?phone=<?= $about[0]['whatsapp'] ?>&text=Hi%2C%20">
+                                                                            <img src="<?php base_url() ?>assets/images/whatsapp.png" alt="" width="70%" />
                                                                         </a>
                                                                     </figure>
                                                                     <div class="wpb_text_column wpb_content_element ">
@@ -76,7 +76,7 @@
                                                                 <div class="sc_section_content_wrap">
                                                                     <figure class="sc_image sc_image_shape_square">
                                                                         <a href="<?= $about[0]['shopee'] ?>">
-                                                                            <img src="<?php base_url() ?>assets/images/3-1.png" alt="" />
+                                                                            <img src="<?php base_url() ?>assets/images/shopee.png" alt="" width="70%" />
                                                                         </a>
                                                                     </figure>
                                                                     <div class="wpb_text_column wpb_content_element ">
@@ -94,7 +94,7 @@
                                                                 <div class="sc_section_content_wrap">
                                                                     <figure class="sc_image sc_image_shape_square">
                                                                         <a href="<?= $about[0]['siplah'] ?>">
-                                                                            <img src="<?php base_url() ?>assets/images/4-1a.png" alt="" />
+                                                                            <img src="<?php base_url() ?>assets/images/siplah.png" alt="" width="70%" />
                                                                         </a>
                                                                     </figure>
                                                                     <div class="wpb_text_column wpb_content_element ">

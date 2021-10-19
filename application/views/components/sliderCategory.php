@@ -2,6 +2,12 @@
     <div class="wpb_column vc_column_container vc_col-sm-12">
         <div class="vc_column-inner">
             <div class="wpb_wrapper">
+                <h2 class="sc_section_title sc_item_title">
+                    Pick What U Want
+                </h2>
+                <div class="sc_section_descr sc_item_descr">
+                    Toko Karakter gives you positive emotions
+                </div>
                 <div class="vc_empty_space em_height_5">
                     <span class="vc_empty_space_inner"></span>
                 </div>
@@ -25,13 +31,13 @@
                                             <div class="sc_services_item">
                                                 <div class="sc_services_item_featuredpost_featured">
                                                     <div class="post_thumb" data-image="images/5.png" data-title="Video Games &#038; Electronics for Kids">
-                                                        <a class="hover_icon hover_icon_link" href="shop.html">
+                                                        <a class="hover_icon hover_icon_link" href="<?= base_url() . 'Products?category=' . $row['id_category'] ?>">
                                                             <img alt="" src="<?= $imageAdress . 'category/' . $row['icon'] ?>" />
                                                         </a>
                                                     </div>
                                                 </div>
                                                 <h4 class="sc_services_item_title">
-                                                    <a href="shop.html"><?= $row['name_category'] ?></a>
+                                                    <a href="<?= base_url() . 'Products?category=' . $row['id_category'] ?>"><?= $row['name_category'] ?></a>
                                                 </h4>
                                             </div>
                                         </div>

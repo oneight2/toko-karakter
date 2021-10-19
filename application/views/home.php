@@ -11,11 +11,10 @@
                     <?php $this->load->view('components/sliderCategory'); ?>
 
                     <!-- BANNER DISKON -->
-                    <?php $this->load->view('components/bannerDiskon'); ?>
+                    <!-- <?php $this->load->view('components/bannerDiskon'); ?> -->
 
                     <!-- FEATURED PRODUCT -->
                     <?php $this->load->view('components/featuredProducts'); ?>
-
 
                     <div class="
                       vc_row

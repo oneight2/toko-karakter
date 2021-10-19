@@ -8,7 +8,7 @@
                             Popular In Store
                         </h2>
                         <div class="sc_section_descr sc_item_descr">
-                            Shop Juno Toys & Games Store goodies for your
+                            Toko Karakter goodies for your
                             kids.
                         </div>
                         <div class="sc_section_content_wrap">
@@ -50,34 +50,36 @@
                                           <?= $row['name_featured'] ?>
                                         " data-date="1464266513">
                                                 <div class="esg-media-cover-wrapper">
-                                                    <div class="esg-entry-media">
-                                                        <img alt="" src="
+                                                    <a class="" href="<?= base_url() . 'Products/detailProduct/' . $row['id'] . '?category=' . $row['id_category'] . '&photos=' . $row['id_photos'] ?>">
+                                                        <div class="esg-entry-media">
+                                                            <img alt="" src="
                                                         <?php if ($imageProducts[$i++]['id_photo'] == $row['id_photos']) {
                                                             echo $imageAdress . 'product/' . $imageProducts[$i++]['photo'];
                                                         } ?>" />
-                                                    </div>
-                                                    <div class="esg-entry-cover esg-fade" data-delay="0">
-                                                        <div class="esg-overlay esg-fade eg-juno-skin-1-container" data-delay="0"></div>
-                                                        <div class="esg-center eg-post-257 eg-juno-skin-1-element-32-a esg-slide" data-delay="0.1">
-                                                            <a class="eg-juno-skin-1-element-32 eg-post-257 esgbox" href="images/1000.png">
-                                                                <i class="eg-icon-search"></i>
-                                                            </a>
                                                         </div>
-                                                    </div>
-                                                    <div class="esg-entry-content eg-juno-skin-1-content">
-                                                        <div class="esg-content eg-post-257 eg-juno-skin-1-element-0">
-                                                            <h5><?= $row['name_product'] ?></h5>
+                                                        <div class="esg-entry-cover esg-fade" data-delay="0">
+                                                            <div class="esg-overlay esg-fade eg-juno-skin-1-container" data-delay="0"></div>
+                                                            <div class="esg-center eg-post-257 eg-juno-skin-1-element-32-a esg-slide" data-delay="0.1">
+                                                                <a class="eg-juno-skin-1-element-32 eg-post-257 esgbox" href="<?= base_url() . 'Products/detailProduct/' . $row['id'] . '?category=' . $row['id_category'] . '&photos=' . $row['id_photos'] ?>">
+                                                                    <i class="eg-icon-search"></i>
+                                                                </a>
+                                                            </div>
                                                         </div>
-                                                        <div class="esg-content eg-post-257 eg-juno-skin-1-element-33-a">
-                                                            <a class="eg-juno-skin-1-element-33 eg-post-257" href="#" rel="tag"><?= $row['name_category'] ?></a>
+                                                        <div class="esg-entry-content eg-juno-skin-1-content">
+                                                            <div class="esg-content eg-post-257 eg-juno-skin-1-element-0">
+                                                                <h5><?= $row['name_product'] ?></h5>
+                                                            </div>
+                                                            <div class="esg-content eg-post-257 eg-juno-skin-1-element-33-a">
+                                                                <a class="eg-juno-skin-1-element-33 eg-post-257" href="#" rel="tag"><?= $row['name_category'] ?></a>
+                                                            </div>
+                                                            <div class="esg-content eg-post-257 eg-juno-skin-1-element-25">
+                                                                <span class="woocommerce-Price-amount amount">
+                                                                    <span class="woocommerce-Price-currency Symbol"></span>
+                                                                    <h5 style="color:#EA624C"><?= $row['price'] ?></h5>
+                                                                </span>
+                                                            </div>
                                                         </div>
-                                                        <div class="esg-content eg-post-257 eg-juno-skin-1-element-25">
-                                                            <span class="woocommerce-Price-amount amount">
-                                                                <span class="woocommerce-Price-currency Symbol"></span>
-                                                                <h5 style="color:#EA624C"><?= $row['price'] ?></h5>
-                                                            </span>
-                                                        </div>
-                                                    </div>
+                                                    </a>
                                                 </div>
                                             </li>
                                         <?php endforeach; ?>

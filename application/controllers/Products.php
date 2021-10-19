@@ -12,17 +12,32 @@ class Products extends CI_Controller
     }
     public function index()
     {
-        $data = array(
-            'title' => "Toko Karakter",
-            'imageAdress' => "http://localhost/e-catalog/assets/",
-            'carousel' => $this->Product_model->carousel(),
-            'category' => $this->Product_model->category(),
-            'featured' => $this->Product_model->featured(),
-            'products' => $this->Product_model->products(),
-            'imageProducts' => $this->Product_model->imageProducts(),
-            'reviews' => $this->Product_model->reviews(),
-            'about' => $this->Product_model->about(),
-        );
+        $id_category = $this->input->get('category');
+        if ($id_category) {
+            $data = array(
+                'title' => "Toko Karakter",
+                'imageAdress' => "http://localhost/e-catalog/assets/",
+                'carousel' => $this->Product_model->carousel(),
+                'category' => $this->Product_model->category(),
+                'featured' => $this->Product_model->featured(),
+                'imageProducts' => $this->Product_model->imageProducts(),
+                'reviews' => $this->Product_model->reviews(),
+                'about' => $this->Product_model->about(),
+                'products' => $this->Product_model->productsCategory($id_category),
+            );
+        } else {
+            $data = array(
+                'title' => "Toko Karakter",
+                'imageAdress' => "http://localhost/e-catalog/assets/",
+                'carousel' => $this->Product_model->carousel(),
+                'category' => $this->Product_model->category(),
+                'featured' => $this->Product_model->featured(),
+                'imageProducts' => $this->Product_model->imageProducts(),
+                'reviews' => $this->Product_model->reviews(),
+                'about' => $this->Product_model->about(),
+                'products' => $this->Product_model->products(),
+            );
+        }
 
         $this->load->view('templates/header_product', $data);
         $this->load->view('products', $data);

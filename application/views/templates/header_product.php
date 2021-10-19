@@ -45,7 +45,7 @@
                             <div class="columns_wrap">
                                 <div class="contact_logo column-1_4">
                                     <div class="logo">
-                                        <a href="index.html">
+                                        <a href="<?= base_url(); ?>">
                                             <img alt="" class="logo_main" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                                             <img alt="" class="logo_fixed" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                                         </a>
@@ -116,7 +116,7 @@
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="<?= base_url(); ?>">
                             <img alt="" class="logo_main" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                         </a>
                     </div>

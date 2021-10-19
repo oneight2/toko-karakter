@@ -2,9 +2,11 @@
 <html class="scheme_original" lang="en-US">
 
 <head>
-    <title>Juno Toys and Games</title>
+    <title>Toko Karakter</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <link rel="icon" type="image/png" href="https://sertifikat.ihf.or.id/img/ihficon.png">
+
     <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/essgrid/settings.css" type="text/css" media="all" />
     <link property="stylesheet" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700|Fredoka+One|Open+Sans:300,400,600,700,800|Raleway:100,200,300,400,500,600,700,800,900|Ubuntu:300,300i,400,400i,500,500i,700,700i&#038;ver=4.6.3" type="text/css" media="all" />
     <link property="stylesheet" rel="stylesheet" href="<?= base_url() ?>assets/js/vendor/revslider/settings.css" type="text/css" media="all" />
@@ -120,7 +122,7 @@
                 <div class="content_wrap">
                     <div class="menu_button icon-menu"></div>
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="<?= base_url() ?>">
                             <img alt="" class="logo_main" height="74" src="<?= base_url(); ?>assets/images/logo/logo.png" width="121" />
                         </a>
                     </div>
