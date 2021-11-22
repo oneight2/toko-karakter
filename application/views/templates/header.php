@@ -63,9 +63,9 @@
                         top_panel_icon
                       ">
                                         <div class="search_form_wrap">
-                                            <form action="index.html" class="search_form" method="get" role="search">
+                                            <form action="" class="search_form" method="get" role="search">
                                                 <button class="search_submit icon-search" title="Open search" type="submit"></button>
-                                                <input class="search_field" name="s" placeholder="Search" type="text" value="" />
+                                                <input class="search_field" name="search" placeholder="Search" type="text" value="" />
                                                 <a class="search_close icon-cancel"></a>
                                             </form>
                                         </div>

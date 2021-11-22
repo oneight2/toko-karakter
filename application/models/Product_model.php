@@ -27,6 +27,12 @@ class Product_model extends CI_Model
         $query = "SELECT * FROM `products` JOIN `featured_products` ON `products`.`id_featured` = `featured_products`.`id_featured` JOIN `category` ON `products`.`id_category` = `category`.`id_category` WHERE `products`.`id_category` = $id_category ";
         return $this->db->query($query)->result_array();
     }
+    function productsSearch($search)
+    {
+        $query = "SELECT * FROM `products` JOIN `featured_products` ON `products`.`id_featured` = `featured_products`.`id_featured` JOIN `category` ON `products`.`id_category` = `category`.`id_category` WHERE `products`.`name_product` LIKE '%$search%' ";
+        return $this->db->query($query)->result_array();
+    }
+
     function imageProducts()
     {
         $query = "SELECT * FROM `photo_products` ";

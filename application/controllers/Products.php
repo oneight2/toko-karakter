@@ -12,6 +12,7 @@ class Products extends CI_Controller
     }
     public function index()
     {
+        $search = $this->input->get('search');
         $id_category = $this->input->get('category');
         if ($id_category) {
             $data = array(
@@ -24,6 +25,18 @@ class Products extends CI_Controller
                 'reviews' => $this->Product_model->reviews(),
                 'about' => $this->Product_model->about(),
                 'products' => $this->Product_model->productsCategory($id_category),
+            );
+        } elseif ($search) {
+            $data = array(
+                'title' => "Toko Karakter",
+                'imageAdress' => "http://localhost/e-catalog/assets/",
+                'carousel' => $this->Product_model->carousel(),
+                'category' => $this->Product_model->category(),
+                'featured' => $this->Product_model->featured(),
+                'imageProducts' => $this->Product_model->imageProducts(),
+                'reviews' => $this->Product_model->reviews(),
+                'about' => $this->Product_model->about(),
+                'products' => $this->Product_model->productsSearch($search),
             );
         } else {
             $data = array(

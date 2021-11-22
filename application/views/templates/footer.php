@@ -2,7 +2,7 @@
     <div class="contacts_wrap_inner">
         <div class="content_wrap">
             <div class="logo">
-                <a href="index.html">
+                <a href="">
                     <img alt="" class="logo_footer" height="60" src="<?= base_url() ?>assets/images/logo/logo2.png" width="121" />
                 </a>
             </div>

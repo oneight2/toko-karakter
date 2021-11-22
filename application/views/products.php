@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="post_content">
                                     <h3>
-                                        <a href="single-product.html"><?= $row['name_product'] ?></a>
+                                        <a href="<?= base_url() . 'Products/detailProduct/' . $row['id'] . '?category=' . $row['id_category'] . '&photos=' . $row['id_photos'] ?>"><?= $row['name_product'] ?></a>
                                     </h3>
                                     <span class="price">
                                         <span class="woocommerce-Price-amount amount">

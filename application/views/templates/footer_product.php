@@ -2,38 +2,12 @@
     <div class="contacts_wrap_inner">
         <div class="content_wrap">
             <div class="logo">
-                <a href="index.html">
-                    <img src="images/logo-footer.png" class="logo_footer" alt="" width="121" height="60">
+                <a href="">
+                    <img alt="" class="logo_footer" height="60" src="<?= base_url() ?>assets/images/logo/logo2.png" width="121" />
                 </a>
             </div>
             <div class="contact_info">Make play time a blast with our finest toys and games!</div>
-            <div class="sc_socials sc_socials_type_images sc_socials_shape_square sc_socials_size_large">
-                <div class="sc_socials_item">
-                    <a href="#" target="_blank" class="social_icons social_twitter">
-                        <span class="sc_socials_hover"></span>
-                    </a>
-                </div>
-                <div class="sc_socials_item">
-                    <a href="#" target="_blank" class="social_icons social_facebook">
-                        <span class="sc_socials_hover"></span>
-                    </a>
-                </div>
-                <div class="sc_socials_item">
-                    <a href="#" target="_blank" class="social_icons social_vimeo">
-                        <span class="sc_socials_hover"></span>
-                    </a>
-                </div>
-                <div class="sc_socials_item">
-                    <a href="#" target="_blank" class="social_icons social_pinterest">
-                        <span class="sc_socials_hover"></span>
-                    </a>
-                </div>
-                <div class="sc_socials_item">
-                    <a href="#" target="_blank" class="social_icons social_linkedin">
-                        <span class="sc_socials_hover"></span>
-                    </a>
-                </div>
-            </div>
+
         </div>
     </div>
 </footer>
@@ -45,8 +19,11 @@
                     <img src="images/Visa.png" alt="" />
                 </figure>
                 <p>
-                    Juno © 2019 All rights reserved.
-                    <a href="#">Terms of Use</a> and
+                    Toko Karakter ©
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script>
+                    All rights reserved. <a href="#">Terms of Use</a> and
                     <a href="#">Privacy Policy</a>
                 </p>
             </div>
