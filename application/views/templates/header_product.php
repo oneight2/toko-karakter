@@ -81,7 +81,7 @@
                                                                     } ?>">
                                                 <a href="<?= base_url() ?>Products"><span>Our Product</span></a>
                                             </li>
-                                            <li class="menu-item menu-item-has-children">
+                                            <!-- <li class="menu-item menu-item-has-children">
                                                 <a><span>MARKET PLACE</span></a>
                                                 <ul class="sub-menu">
                                                     <li class="menu-item">
@@ -103,7 +103,7 @@
                                                         <a href="404.html"><span>Page 404</span></a>
                                                     </li>
                                                 </ul>
-                                            </li>
+                                            </li> -->
                                         </ul>
                                     </nav>
                                 </div>

@@ -22,6 +22,7 @@ class Home extends CI_Controller
                 'category' => $this->Product_model->category(),
                 'featured' => $this->Product_model->featured(),
                 'imageProducts' => $this->Product_model->imageProducts(),
+                'idimageProducts' => $this->Product_model->idimageProducts(),
                 'reviews' => $this->Product_model->reviews(),
                 'about' => $this->Product_model->about(),
                 'products' => $this->Product_model->productsSearch($search),
@@ -38,6 +39,7 @@ class Home extends CI_Controller
                 'featured' => $this->Home_model->featured(),
                 'products' => $this->Home_model->products(),
                 'imageProducts' => $this->Home_model->imageProducts(),
+                'idimageProducts' => $this->Home_model->idimageProducts(),
                 'reviews' => $this->Home_model->reviews(),
             );
             $this->load->view('templates/header', $data);

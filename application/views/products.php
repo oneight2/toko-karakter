@@ -1,3 +1,8 @@
+<style>
+    .image-product:not(:first-child) {
+        display: none !important;
+    }
+</style>
 <div class="top_panel_title top_panel_style_6 title_present breadcrumbs_present scheme_original">
     <div class="top_panel_title_inner top_panel_inner_style_6 title_present_inner breadcrumbs_present_inner">
         <div class="content_wrap">
@@ -25,9 +30,15 @@
                                 <div class="post_featured">
                                     <div class="post_thumb">
                                         <a class="hover_icon hover_icon_link" href="<?= base_url() . 'Products/detailProduct/' . $row['id'] . '?category=' . $row['id_category'] . '&photos=' . $row['id_photos'] ?>">
-                                            <img src="<?php if ($imageProducts[$i++]['id_photo'] == $row['id_photos']) {
-                                                            echo $imageAdress . 'product/' . $imageProducts[$i++]['photo'];
-                                                        } ?>" class="attachment-shop_catalog size-shop_catalog" alt="" title="product_4" />
+                                            <?php foreach ($imageProducts as $img) : ?>
+                                                <?php if ($img['id_photo'] === $row['id_photos']) { ?>
+                                                    <img alt="" class="attachment-shop_catalog size-shop_catalog image-product" src="
+                                                                <?php
+                                                                echo $imageAdress . 'product/' . $img['photo'];
+                                                                ?>" />
+                                                <?php } ?>
+                                            <?php endforeach ?>
+
                                         </a>
                                     </div>
                                 </div>

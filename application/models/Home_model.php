@@ -27,6 +27,11 @@ class Home_model extends CI_Model
         $query = "SELECT * FROM `photo_products` ";
         return $this->db->query($query)->result_array();
     }
+    function idimageProducts()
+    {
+        $query = "SELECT DISTINCT `id_photo` FROM `photo_products` ";
+        return $this->db->query($query)->result_array();
+    }
     function reviews()
     {
         $query = "SELECT * FROM `reviews` ";
